@@ -3,7 +3,7 @@ import { Link, routes } from '@redwoodjs/router'
 import Posts from 'src/components/Post/Posts'
 
 export const QUERY = gql`
-  query POSTS {
+  posts: adminPosts {
     posts {
       id
       title

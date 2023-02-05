@@ -6,6 +6,9 @@ export const QUERY = gql`
       id
       title
       body
+      user {
+        name
+      }
       createdAt
     }
   }
